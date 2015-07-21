@@ -1,0 +1,49 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -c
+
+The output was:
+1
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+1
+<command-line>:0:1: error: missing '(' after predicate
+CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+g++.exe: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/Public/MusicGen/Music/Tracker/Song compiler C++/OpenAL Soft/freealut/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:C:/MinGW/bin/mingw32-make.exe "cmTryCompileExec2611307893/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec2611307893.dir\build.make CMakeFiles/cmTryCompileExec2611307893.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/Public/MusicGen/Music/Tracker/Song compiler C++/OpenAL Soft/freealut/bin/CMakeFiles/CMakeTmp'
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -E cmake_progress_report "C:\Users\Public\MusicGen\Music\Tracker\Song compiler C++\OpenAL Soft\freealut\bin\CMakeFiles\CMakeTmp\CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2611307893.dir/testCCompiler.c.obj
+C:\MinGW\bin\g++.exe    -o CMakeFiles\cmTryCompileExec2611307893.dir\testCCompiler.c.obj   -c "C:\Users\Public\MusicGen\Music\Tracker\Song compiler C++\OpenAL Soft\freealut\bin\CMakeFiles\CMakeTmp\testCCompiler.c"
+C:\Users\Public\MusicGen\Music\Tracker\Song compiler C++\OpenAL Soft\freealut\bin\CMakeFiles\CMakeTmp\testCCompiler.c:2:3: error: #error "The CMAKE_C_COMPILER is set to a C++ compiler"
+mingw32-make.exe[1]: *** [CMakeFiles/cmTryCompileExec2611307893.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory `C:/Users/Public/MusicGen/Music/Tracker/Song compiler C++/OpenAL Soft/freealut/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [cmTryCompileExec2611307893/fast] Error 2
+
+
